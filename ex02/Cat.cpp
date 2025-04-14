@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Cat.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: louisalah <louisalah@student.42.fr>        +#+  +:+       +#+        */
+/*   By: asid-ahm <asid-ahm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 09:22:00 by louisalah         #+#    #+#             */
-/*   Updated: 2025/04/14 10:22:44 by louisalah        ###   ########.fr       */
+/*   Updated: 2025/04/14 15:46:55 by asid-ahm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ Cat::~Cat()
 {
     if (this->brain)
         delete this->brain;
-    this->brain = nullptr;
+    this->brain = NULL;
     std::cout << "Cat destructor called" << std::endl;
 }
 
